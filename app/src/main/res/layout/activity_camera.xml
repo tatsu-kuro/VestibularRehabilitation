@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/surfaceView"/>
+
+    <TextureView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mySurfaceView" />
+
+
+    <ImageView
+            android:id="@+id/oval1"
+            android:src="@drawable/shape1"
+            android:layout_width="40px"
+            android:layout_height="40px"/>
+
+    <ImageView
+            android:id="@+id/oval2"
+            android:src="@drawable/shape1"
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+    <ImageView
+            android:id="@+id/oval3"
+            android:src="@drawable/shape1"
+            android:layout_width="74px"
+            android:layout_height="74px"/>
+    <ImageView
+            android:id="@+id/oval4"
+            android:src="@drawable/shape1"
+            android:layout_width="100px"
+            android:layout_height="100px"/>
+
+
+</FrameLayout>
